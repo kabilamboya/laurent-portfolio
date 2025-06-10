@@ -9,7 +9,7 @@ export default function Introduction() {
         <h1 className="text-golden">Current Project:</h1>
         <h2 className="text-white">
           <Typewriter
-            words={['Innovative AI Model', 'Open-Source Collaboration']}
+            words={['Multi-Tenant', 'E-commerce System']}
             loop={0}
             cursor
             cursorStyle="_"

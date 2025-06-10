@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import AdminSettings from './components/AdminSettings';
 import Introduction from './components/Introduction';
 import Hero from './components/Hero';
+import ProfileHighlights from './components/ProfileHighlights';
 import OngoingProjects from './components/OngoingProjects';
 import CompletedProjects from './components/CompletedProjects';
 import Projects from './components/Projects';
@@ -11,7 +12,7 @@ import TechTip from './components/TechTip';
 import Footer from './components/Footer';
 import AdminLogin from './components/AdminLogin';
 import AdminPanel from './components/AdminUploader';
-import PosterGallery from './components/PosterGallery';
+import PosterShowcase from './components/PosterShowcase';
 import FloatingChatBot from './components/FloatingChatBot';
 
 function App() {
@@ -21,9 +22,78 @@ function App() {
     {
       title: "Poster 1",
       desc: "A bold visual statement on climate change.",
-      image: "OneTechGITHU.jpg"
+      image: "https://via.placeholder.com/300x400?text=Poster+1"
     },
-    // ... up to 15 posters
+    {
+      title: "Poster 2",
+      desc: "Exploring the future of sustainable energy.",
+      image: "https://via.placeholder.com/300x400?text=Poster+2"
+    },
+    {
+      title: "Poster 3",
+      desc: "Visualizing digital transformation in education.",
+      image: "https://via.placeholder.com/300x400?text=Poster+3"
+    },
+    {
+      title: "Poster 4",
+      desc: "The beauty of AI and machine learning illustrated.",
+      image: "https://via.placeholder.com/300x400?text=Poster+4"
+    },
+    {
+      title: "Poster 5",
+      desc: "Healthcare innovations that save lives.",
+      image: "https://via.placeholder.com/300x400?text=Poster+5"
+    },
+    {
+      title: "Poster 6",
+      desc: "Urban planning and smart cities.",
+      image: "https://via.placeholder.com/300x400?text=Poster+6"
+    },
+    {
+      title: "Poster 7",
+      desc: "Diversity and inclusion in tech workplaces.",
+      image: "https://via.placeholder.com/300x400?text=Poster+7"
+    },
+    {
+      title: "Poster 8",
+      desc: "Nature and design in architectural spaces.",
+      image: "https://via.placeholder.com/300x400?text=Poster+8"
+    },
+    {
+      title: "Poster 9",
+      desc: "Blockchain's impact on the financial world.",
+      image: "https://via.placeholder.com/300x400?text=Poster+9"
+    },
+    {
+      title: "Poster 10",
+      desc: "The role of big data in modern decision making.",
+      image: "https://via.placeholder.com/300x400?text=Poster+10"
+    },
+    {
+      title: "Poster 11",
+      desc: "Art, code, and creative technology.",
+      image: "https://via.placeholder.com/300x400?text=Poster+11"
+    },
+    {
+      title: "Poster 12",
+      desc: "Climate resilience through innovation.",
+      image: "https://via.placeholder.com/300x400?text=Poster+12"
+    },
+    {
+      title: "Poster 13",
+      desc: "Cybersecurity in the age of data.",
+      image: "https://via.placeholder.com/300x400?text=Poster+13"
+    },
+    {
+      title: "Poster 14",
+      desc: "Redefining mobility with electric vehicles.",
+      image: "https://via.placeholder.com/300x400?text=Poster+14"
+    },
+    {
+      title: "Poster 15",
+      desc: "Exploring space through human imagination.",
+      image: "https://via.placeholder.com/300x400?text=Poster+15"
+    }
   ]);
 
   useEffect(() => {
@@ -61,9 +131,10 @@ function App() {
               <Hero />
               <OngoingProjects />
               <CompletedProjects />
+              <ProfileHighlights />
               <Projects />
               <TechTip />
-              <PosterGallery posters={posters} />
+              <PosterShowcase posters={posters} />
               <FloatingChatBot />
               <Footer />
             </>
@@ -100,7 +171,7 @@ function App() {
                 {showUploader ? (
                   <AdminPanel onUpload={handleUpload} />
                 ) : (
-                  <PosterGallery posters={posters} />
+                  <PosterShowcase posters={posters} />
                 )}
               </div>
             ) : (

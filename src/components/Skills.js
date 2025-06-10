@@ -1,6 +1,5 @@
-      "use client";
-      
-      import React from "react";
+import React from "react";
+import "./Skills.css"; // Ensure this file includes the styles from the new skills design
       
       export default function Skills() {
         return (

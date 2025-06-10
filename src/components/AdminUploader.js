@@ -59,6 +59,19 @@ const AdminPanel = ({ onUpload }) => {
             required
           />
         </div>
+        
+          {image && (
+          <div className="mb-3">
+            <label>Preview:</label>
+            <img
+              src={URL.createObjectURL(image)}
+              alt="Preview"
+              className="img-fluid rounded"
+              style={{ maxHeight: "200px" }}
+            />
+          </div>
+          )}
+
         <button className="btn btn-success">Upload</button>
       </form>
     </div>
