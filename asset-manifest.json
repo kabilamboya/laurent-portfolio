@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/laurent-portfolio/static/css/main.5fe975c3.css",
-    "main.js": "/laurent-portfolio/static/js/main.86047f0f.js",
+    "main.css": "/laurent-portfolio/static/css/main.e219966d.css",
+    "main.js": "/laurent-portfolio/static/js/main.da38a1a2.js",
     "static/js/453.792fa4b8.chunk.js": "/laurent-portfolio/static/js/453.792fa4b8.chunk.js",
+    "static/media/LaurentKabilaMboya.JPG": "/laurent-portfolio/static/media/LaurentKabilaMboya.bb27b463e4f97943c270.JPG",
     "index.html": "/laurent-portfolio/index.html",
-    "main.5fe975c3.css.map": "/laurent-portfolio/static/css/main.5fe975c3.css.map",
-    "main.86047f0f.js.map": "/laurent-portfolio/static/js/main.86047f0f.js.map",
+    "main.e219966d.css.map": "/laurent-portfolio/static/css/main.e219966d.css.map",
+    "main.da38a1a2.js.map": "/laurent-portfolio/static/js/main.da38a1a2.js.map",
     "453.792fa4b8.chunk.js.map": "/laurent-portfolio/static/js/453.792fa4b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fe975c3.css",
-    "static/js/main.86047f0f.js"
+    "static/css/main.e219966d.css",
+    "static/js/main.da38a1a2.js"
   ]
 }
