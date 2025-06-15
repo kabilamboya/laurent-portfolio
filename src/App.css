@@ -1,0 +1,8 @@
+body {
+  background-color: #0e2029;           /* grey background */
+  color: #fff;                      /* default text white */
+  font-family: 'Courier New', Courier, monospace; /* typewriter-style font */
+}
+.text-golden {
+  color: #ffd700;                   /* golden yellow text */
+}
