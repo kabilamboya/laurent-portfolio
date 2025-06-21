@@ -80,6 +80,24 @@ export default function Footer() {
             <p>Free Cyber Mockups and Templates.</p>
             <p>Open source Dholuo LLM!</p>
           </div>
+          {/* In Introduction, Footer, or wherever you want it visible*/}
+          <button
+            onClick={() => window.location.href = "/admin"}
+            className="text-sm text-gray-400 hover:underline">
+            Admin Settings
+          </button>
+            <p className="text-center text-xs text-gray-400 mt-10">
+              <a
+                href="/admin"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                Admin Settings
+              </a>
+            </p>
+
+
         </div>
 
         <hr className="bg-white" />

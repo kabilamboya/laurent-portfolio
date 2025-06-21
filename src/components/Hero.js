@@ -6,7 +6,7 @@ import {
   FaFacebook,
 } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
-import lkmImage from '../assets/LaurentKabilaMboya.JPG';
+import lkmImage from '../assets/images/LaurentKabilaMboya.JPG';
 
 export default function Hero() {
   return (
@@ -25,21 +25,51 @@ export default function Hero() {
               Hi, I’m <span style={{ color: '#065f46' }}>Kabila Mboya</span>
             </h2>
             <div className="d-flex gap-3 fs-4">
-              <a href="https://twitter.com/kabilamboya" target="_blank" rel="noopener noreferrer" className="text-warning" aria-label="Twitter">
-                <FaTwitter />
-              </a>
-              <a href="https://github.com/kabilamboya" target="_blank" rel="noopener noreferrer" className="text-warning" aria-label="GitHub">
-                <FaGithub />
-              </a>
-              <a href="https://www.linkedin.com/in/kabila-mboya-b3375a178/" target="_blank" rel="noopener noreferrer" className="text-warning" aria-label="LinkedIn">
-                <FaLinkedin />
-              </a>
-              <a href="https://facebook.com/kabilamboya" target="_blank" rel="noopener noreferrer" className="text-warning" aria-label="Facebook">
-                <FaFacebook />
-              </a>
-              <a href="mailto:kabilamboya@gmail.com" className="text-warning" aria-label="Gmail">
-                <SiGmail />
-              </a>
+    <a
+      href="https://twitter.com/kabilamboya"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-warning fs-4"
+      aria-label="Twitter"
+    >
+      <FaTwitter />
+    </a>
+    <a
+      href="https://github.com/kabilamboya"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-warning fs-4"
+      aria-label="GitHub"
+    >
+      <FaGithub />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/kabila-mboya-b3375a178/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-warning fs-4"
+      aria-label="LinkedIn"
+    >
+      <FaLinkedin />
+    </a>
+    <a
+      href="https://facebook.com/kabilamboya"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-warning fs-4"
+      aria-label="Facebook"
+    >
+      <FaFacebook />
+    </a>
+    <a
+      href="mailto:kabilamboya@gmail.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-warning fs-4"
+      aria-label="Gmail"
+    >
+      <SiGmail />
+    </a>
             </div>
           </div>
 
